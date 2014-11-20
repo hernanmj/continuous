@@ -9,7 +9,7 @@
         // GET: Home
         public ActionResult Index()
         {
-            var model = new HomeViewModel { Message = "Hola Integración!" };
+            var model = new HomeViewModel { Message = "Hola MeetUp!" };
             return this.View(model);
         }
     }
